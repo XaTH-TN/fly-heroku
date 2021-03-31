@@ -1,0 +1,83 @@
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+    position: absolute;
+    margin-top: 20px;
+    /* cursor: pointer; */
+  }
+
+   /* .trigger {
+    line-height: 64px;
+    font-size: 18px;
+    position: absolute;
+    height: 60px;
+    padding: 0 24px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: color 0.3s;
+  } */
+  
+  .trigger:hover {
+    color: #1890ff;
+  }
+  
+  .logo {
+    height: 64px;
+    padding: 16px 16px 16px 46px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+    position: relative;
+  }
+  .avatar-img {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ced4da;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-top: 3px;
+    margin-left: 1050px;
+    position: relative;
+    z-index: 3;
+  }
+
+  /* Logo */
+  /* .logo {
+    height: 64px;
+    padding: 16px 16px 16px 46px;
+    background-color: #e2f9f8;
+    z-index: 2;
+    position: relative;
+
+    img {
+      width: 30px;
+      margin-right: 5px;
+    }
+
+    span {
+      font-weight: bold;
+      vertical-align: -3px;
+      color: #757575;
+      font-size: 18px;
+    }
+  } */
+
+  .logo .logo-span {
+    font-weight: bold;
+    vertical-align: -3px;
+    color: #a7be28;
+    font-size: 18px;
+  }
+  .logo-collapsed {
+    width: 30px;
+    margin-left: -23px;
+  }
+
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
